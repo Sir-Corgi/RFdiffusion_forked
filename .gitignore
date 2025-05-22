@@ -6,6 +6,11 @@ schedules/
 
 examples/ppi_scaffolds
 
+input/
+output/
+scripts/sbatch
+trials/
+
 tests/.results.json
 tests/input_pdbs
 tests/outputs
