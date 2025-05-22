@@ -28,7 +28,7 @@ import numpy as np
 import random
 import glob
 
-
+torch.cuda.empty_cache()
 def make_deterministic(seed=0):
     torch.manual_seed(seed)
     np.random.seed(seed)
